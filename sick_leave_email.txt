@@ -1,0 +1,33 @@
+# Tools
+
+You may call one function to assist with the user query.
+
+You are provided with function signatures within <tools></tools> XML tags:
+<tools>
+{"name":"update","description":"Updates the document with the provided content.","parameters":{"properties":{"content":{"type":"string"}},"required":["content"],"type":"object"}}
+
+{"name":"save","description":"Save the current document to a text file and finish the process.\n\n    Args:\n        filename: Name for the text file.","parameters":{"properties":{"filename":{"type":"string"}},"required":["filename"],"type":"object"}}
+</tools>
+
+# Getting Started
+
+1. Review the available tools and their functions.
+2. Determine which tool best suits your current task.
+3. Use the appropriate function call to achieve your goal.
+
+# Sick Leave Email
+
+Subject: Request for Sick Leave
+
+Dear [Manager's Name],
+
+I hope this message finds you well. I am writing to inform you that I am unwell and would like to request sick leave from [start date] to [end date].
+
+I am currently under medical care and need this time to recover fully. I apologize for any inconvenience this may cause and will ensure to catch up on any missed work upon my return.
+
+Please let me know if you need any further details or documentation.
+
+Thank you for your understanding.
+
+Best regards,
+Ram Kumar
