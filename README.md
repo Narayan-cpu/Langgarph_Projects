@@ -76,14 +76,6 @@ result = graph.run(initial_data)
 
 ---
 
-## Visualizing Graphs
-
-LangGraph supports visualization tools to help you see how nodes and edges connect.
-
-![Example Graph Diagram](docs/graph-diagram.png)
-
----
-
 ## Contributing
 
 Pull requests and suggestions are welcome! Open an issue if you find a bug or have questions.
