@@ -74,13 +74,9 @@ graph.add_edge("summarize", "output")
 result = graph.run(initial_data)
 ```
 
----
-
 ## Contributing
 
 Pull requests and suggestions are welcome! Open an issue if you find a bug or have questions.
-
----
 
 ---
 
