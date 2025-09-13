@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # LangGraph Projects
 
 Welcome to the LangGraph tutorial! This guide will walk you through the fundamental concepts of LangGraph, focusing on **nodes** and **edges**, and show you how to build and visualize computational graphs for language tasks.
@@ -83,4 +81,3 @@ Pull requests and suggestions are welcome! Open an issue if you find a bug or ha
 ---
 
 Happy graph-building!
->>>>>>> 1b6541d1de28265a55fd3697bf55b579521d7269
