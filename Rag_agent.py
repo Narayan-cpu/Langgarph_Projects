@@ -17,14 +17,12 @@ load_dotenv()
 
 llm = ChatGroq(model="deepseek-r1-distill-llama-70b", temperature=0) # I want to minimize hallucination - temperature = 0 makes the model output more deterministic 
 
-# Our Embedding Model - has to also be compatible with the LLM
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 
 pdf_path = "NHCE Aptitude Book final.pdf"
 
 
-# Safety measure I have put for debugging purposes :)
 if not os.path.exists(pdf_path):
     raise FileNotFoundError(f"PDF file not found: {pdf_path}")
 
@@ -50,7 +48,7 @@ pages_split = text_splitter.split_documents(pages) # We now apply this to our pa
 persist_directory = r"c:/Users/naray/OneDrive/Desktop/LangGraph-tut"
 collection_name = "Aptitude_Test_Prep"
 
-# If our collection does not exist in the directory, we create using the os command
+
 if not os.path.exists(persist_directory):
     os.makedirs(persist_directory)
 
