@@ -23,6 +23,7 @@ A **node** represents a distinct unit of computation or a step in your workflow.
 Each node has a unique identifier and can have input and output ports for data exchange.
 
 #### Example:  
+
 ```python
 graph.add_node("summarize", summarize_function)
 ```
